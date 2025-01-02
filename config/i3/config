@@ -193,7 +193,6 @@ exec_always feh --bg-fill /home/$USER/Pictures/Santa_Terra.jpg
 ## Windows+Space to toggle keyboard layout
 exec_always setxkbmap us,es,ru -option grp:win_space_toggle
 
-exec_always picom --config /home/$USER/.config/picom/picom.conf
 exec_always /home/$USER/.config/polybar/launch.sh
 
 # Sound/volume
@@ -240,7 +239,5 @@ bindsym $mod+Shift+q mode "$mode_system"
 # Allocate applications to workspaces
 for_window [class="Yad" title="yad-calendar"] floating enable
 for_window [class="Nm-connection-editor"] floating enable
-
-gaps inner 10
 
 default_border pixel 0

@@ -22,7 +22,6 @@ sudo chmod +x ~/.config/scripts/adjust_brightness.sh
 * feh
 * net-tools
 * brightnessctl
-* picom
 * alacritty
 * thunar
 * yad
@@ -51,7 +50,7 @@ sudo apt install i3
 Para realizar una instalación de lo demás de manera sencilla hay que utilizar este comando
 
 ```bash
-sudo apt install polybar feh net-tools brightnessctl picom alacritty thunar yad rofi maim xclip xdotool copyq
+sudo apt install polybar feh net-tools brightnessctl alacritty thunar yad rofi maim xclip xdotool copyq
 ```
 Las **Nerd Font** se instalan a parte.
 
