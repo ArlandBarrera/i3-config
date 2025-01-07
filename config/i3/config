@@ -240,4 +240,4 @@ bindsym $mod+Shift+q mode "$mode_system"
 for_window [class="Yad" title="yad-calendar"] floating enable
 for_window [class="Nm-connection-editor"] floating enable
 
-default_border pixel 0
+default_border pixel 1
