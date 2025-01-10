@@ -16,9 +16,9 @@ is_mic_muted() {
 
 get_mic_status() {
     if [ "$(is_mic_muted)" = "yes" ]; then
-        printf "%s\n" ""
+        printf "%s\n" "MICX"
     else
-        printf "%s\n" ""
+        printf "%s\n" "MIC"
     fi
 }
 
