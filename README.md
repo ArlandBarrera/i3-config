@@ -57,7 +57,7 @@ Para realizar una instalación del resto de paquetes de manera sencilla hay que 
 ```bash
 sudo apt install polybar feh net-tools brightnessctl thunar yad rofi maim xclip xdotool copyq
 ```
-Las **Nerd Font** se instalan a parte.
+La **Nerd Font** se instala a parte.
 
 Para realizar la instalación de wezterm en un respectivo OS, se puede encontrar información [aquí](https://wezfurlong.org/wezterm/install/linux.html).
 
