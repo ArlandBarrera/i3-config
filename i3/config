@@ -184,14 +184,12 @@ bindsym Mod1+d mode "resize"
 #
 # Please remove the following exec line:
 #######################################################################
-exec i3-config-wizard
-
-exec_always feh --bg-fill /home/$USER/Pictures/Santa_Terra.jpg
+# exec i3-config-wizard
 
 # Configure keyboard
 ## Layouts (US English, ES Spanish, RU Russian)
 ## Windows+Space to toggle keyboard layout
-exec_always setxkbmap us,es,ru -option grp:win_space_toggle
+exec_always "setxkbmap -layout us,es,ru -option 'grp:win_space_toggle'"
 
 exec_always /home/$USER/.config/polybar/launch.sh
 
@@ -239,6 +237,6 @@ bindsym $mod+Shift+q mode "$mode_system"
 # Allocate applications to workspaces
 for_window [class="Yad" title="yad-calendar"] floating enable
 for_window [class="Nm-connection-editor"] floating enable
-for_window [class="Tk"] floating enable
+# for_window [class="Tk"] floating enable
 
 default_border pixel 1

@@ -18,20 +18,19 @@ sudo chmod +x ~/.config/scripts/adjust_brightness.sh
 
 ## ⚡️ Requerimientos
 
-* polybar
-* feh
-* wezterm
-* net-tools
-* brightnessctl
-* thunar
-* yad
-* rofi
-* copyq
-* pamixer
-* maim
-* xclip
-* xdotool
-* Nerd Font: **UbuntuMono Nerd Font**. Se puede encontrar [aquí](https://www.nerdfonts.com/font-downloads). Una forma rápida de encontrarla es buscar `ubuntu` con `ctrl+f` en la página web.
+- polybar
+- wezterm
+- net-tools
+- brightnessctl
+- thunar
+- yad
+- rofi
+- copyq
+- pamixer
+- maim
+- xclip
+- xdotool
+- Nerd Font: **UbuntuMono Nerd Font**. Se puede encontrar [aquí](https://www.nerdfonts.com/font-downloads). Una forma rápida de encontrarla es buscar `ubuntu` con `ctrl+f` en la página web.
 
 ## 📦 Instalación
 
@@ -40,6 +39,7 @@ Es buena práctica actualizar el sistema
 ```bash
 sudo apt update
 ```
+
 y tener la última versión de los paquetes
 
 ```bash
@@ -55,8 +55,9 @@ sudo apt install i3
 Para realizar una instalación del resto de paquetes de manera sencilla hay que utilizar este comando
 
 ```bash
-sudo apt install polybar feh net-tools brightnessctl thunar yad rofi maim xclip xdotool copyq
+sudo apt install polybar net-tools brightnessctl thunar yad rofi maim xclip xdotool copyq
 ```
+
 La **Nerd Font** se instala a parte.
 
 Para realizar la instalación de wezterm en un respectivo OS, se puede encontrar información [aquí](https://wezfurlong.org/wezterm/install/linux.html).
@@ -73,4 +74,4 @@ Para asignar el valor adecuado al campo `interface` del módulo `wireless-networ
 route
 ```
 
-en la terminal y  colocar el valor de `Use Iface`.
+en la terminal y colocar el valor de `Use Iface`.

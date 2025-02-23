@@ -1,20 +1,17 @@
 #!/bin/sh
-lock() {
-    i3lock -i ~/Pictures/void-wallpaper.png
-}
 
 case "$1" in
     lock)
-        lock
+        i3lock
         ;;
     logout)
         i3-msg exit
         ;;
     suspend)
-        lock && systemctl suspend
+        i3lock && systemctl suspend
         ;;
     hibernate)
-        lock && systemctl hibernate
+        i3lock && systemctl hibernate
         ;;
     reboot)
         systemctl reboot
